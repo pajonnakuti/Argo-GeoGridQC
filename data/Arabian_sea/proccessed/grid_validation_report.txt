@@ -1,0 +1,45 @@
+INCOIS ARGO SMART VALIDATION REPORT
+============================================================
+
+Physical ranges:
+  Temperature : [-2, 45]
+  Salinity    : [5, 45]
+  BAD flag    : >= 3
+
+Total Grids : 26
+Passed      : 26
+Failed      : 0
+
+✅ SUCCESS: All grids passed all QC checks.
+
+
+FULL RESULTS TABLE
+------------------------------------------------------------
+Grid                Rows     Math    Logic   Physical
+------------------------------------------------------------
+Grid_107         269,633   PASSED   PASSED     PASSED
+Grid_108         322,338   PASSED   PASSED     PASSED
+Grid_109         567,505   PASSED   PASSED     PASSED
+Grid_110         773,337   PASSED   PASSED     PASSED
+Grid_127         431,715   PASSED   PASSED     PASSED
+Grid_128         514,915   PASSED   PASSED     PASSED
+Grid_129         578,781   PASSED   PASSED     PASSED
+Grid_130         584,572   PASSED   PASSED     PASSED
+Grid_147         476,032   PASSED   PASSED     PASSED
+Grid_148         354,309   PASSED   PASSED     PASSED
+Grid_149         533,642   PASSED   PASSED     PASSED
+Grid_150         680,183   PASSED   PASSED     PASSED
+Grid_29         2,279,186   PASSED   PASSED     PASSED
+Grid_30          685,601   PASSED   PASSED     PASSED
+Grid_48          758,972   PASSED   PASSED     PASSED
+Grid_49          900,724   PASSED   PASSED     PASSED
+Grid_50         1,591,432   PASSED   PASSED     PASSED
+Grid_51          267,858   PASSED   PASSED     PASSED
+Grid_67          511,696   PASSED   PASSED     PASSED
+Grid_68          513,369   PASSED   PASSED     PASSED
+Grid_69         1,434,254   PASSED   PASSED     PASSED
+Grid_70         1,336,469   PASSED   PASSED     PASSED
+Grid_87          297,962   PASSED   PASSED     PASSED
+Grid_88          312,618   PASSED   PASSED     PASSED
+Grid_89          547,535   PASSED   PASSED     PASSED
+Grid_90         1,043,852   PASSED   PASSED     PASSED

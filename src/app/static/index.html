@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARGO SENTINEL — MHOG Observatory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+<div id="app">
+  <section id="login-scene" class="scene">
+    <div class="login-card">
+      <div style="text-align:center;font-size:36px;margin-bottom:8px">🌊</div>
+      <h1>ARGO SENTINEL</h1>
+      <p class="sub">Ocean Data Quality Intelligence</p>
+      <div class="field"><label>Researcher ID</label><input placeholder="e.g. INCOIS-4471"></div>
+      <div class="field"><label>Password</label><input type="password" placeholder="••••••••"></div>
+      <button class="dive-btn" id="diveBtn">Dive In ↓</button>
+      <p style="font-size:11px;color:#7d939c;margin-top:14px;text-align:center">INCOIS · Indian National Centre for Ocean Information Services</p>
+    </div>
+  </section>
+
+  <section id="dash-scene" class="scene hidden">
+    <aside class="sidebar">
+      <div class="sb-brand">
+        <div class="brand-mark"></div>
+        <div class="brand-text"><div class="name">ARGO SENTINEL</div></div>
+      </div>
+      <nav>
+        <div class="nav-station active" data-page="grid"><span>▦</span> MHOG Observatory</div>
+        <div class="nav-station" data-page="qc"><span>◎</span> QC Prediction Centre</div>
+      </nav>
+    </aside>
+    <div class="main-col">
+      <div class="topbar">
+        <div class="status-pill" id="statusPill"><span class="pulse-dot"></span> Live data · ALL_REGIONS_UNIFIED.parquet</div>
+      </div>
+      <div class="content" id="pageContent"></div>
+    </div>
+  </section>
+</div>
+<script src="/static/js/app.js"></script>
+</body>
+</html>
